@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+}
+.row-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row{
+    width: 1150px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}

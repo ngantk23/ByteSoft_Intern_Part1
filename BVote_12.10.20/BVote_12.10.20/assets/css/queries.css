@@ -1,0 +1,442 @@
+@media screen and (max-width: 1160px) {
+    .row {
+        width: 990px;
+        max-width: 100%;
+    }
+    .header__navbar {
+        height: 8rem;
+    }
+    .header__navbar-logo {
+        width: 140px;
+        height: 45px;
+    }
+    .sticky-navbar {
+        height: 5.8rem;
+    }
+    .header__navbar-item {
+        margin-left: 3rem;
+    }
+    .header__navbar-list:last-child {
+        padding-right: 0rem;
+    }
+    .header__navbar-list {
+        height: 100%;
+    }
+    .header__navbar-item {
+        padding: 0;
+    }
+    .header__dropdown {
+        width: 22rem;
+        height: 10rem;
+        padding-top: 1.5rem;
+        left: 0;
+    }
+    .header__dropdown-item {
+        margin-bottom: .8rem;
+    }
+    .red-dot {
+        width: 5px;
+        height: 5px;
+        background-color: #ff0000;
+        border-radius: 50%;
+        margin: 0 5px 0 7px;
+    }
+    .organizer-title {
+        left: 100px;
+    }
+    /* --------Introduction------ */
+    .intro__text {
+        width: 45%;
+    }
+    .intro-title {
+        margin-bottom: 3.5rem;
+    }
+    .title-column {
+        display: none;
+    }
+    .intro__text .title-row {
+        display: none;
+    }
+    .title-text {
+        font-size: 3rem;
+        margin: 0;
+    }
+    .intro-more-btn {
+        margin-top: 4rem;
+    }
+    /* ---intro-img--- */
+    .intro__img {
+        width: 55%;
+    }
+    /* --------- late activity ----------- */
+    #late__activity {
+        margin-bottom: 0;
+    }
+    .ad-img {
+        margin: 0 15px;
+        width: 440px;
+        height: 195px;
+    }
+    /* -------- vote list------- */
+    .votelist__candidate-item {
+        width: 23%;
+        overflow: hidden;
+    }
+    .candidate-item-flag::after {
+        border-left: 114px solid transparent;
+        border-right: 114px solid transparent;
+    }
+    .candidate-item-img {
+        margin-top: 0;
+    }
+    /* ------sponsor----- */
+    #sponsor{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        width: 760px;
+        max-width: 100%;
+    }
+    .header__contact-container.row.row-flex{
+        width:100%;
+        padding-right: 30px;
+    }
+    .header__navbar-container{
+        padding: 0;
+    }
+    .header__navbar-list {
+        display: none;
+    }
+    .header__navbar-btn {
+        display: block;
+    }
+    .organizer-title {
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header__organizer {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .header__navbar-container.row.row-flex{
+        width: 100%;
+    }
+    .header__navbar-logo{
+        margin-left: 30px;
+    }
+    .header__navbar-btn{
+        margin-right: 30px;
+    }
+    /* --------Introduction------ */
+    /* -------late activity-------- */
+    .content-header-title {
+        font-size: 3rem;
+    }
+    .act__table {
+        width: 760px;
+    }
+    .code-vote {
+        width: 18%;
+    }
+    .voter {
+        width: 27%;
+    }
+    .candidate {
+        width: 27%;
+    }
+    .time-vote {
+        width: 28%;
+    }
+    .ad-img {
+        margin: 0 15px;
+        width: 340px;
+        height: 155px;
+    }
+    /* -------- vote list------- */
+    .votelist__candidate-item {
+        width: 30%;
+        height: 355px;
+        margin-bottom: 15px;
+        /* overflow: hidden; */
+    }
+    .votelist__category{
+        margin-bottom: 50px;
+    }
+    .candidate-item-img {
+        width: 210px;
+        margin: 15px auto;
+        height: 215px;
+        overflow: hidden;
+    }
+    .candidate-item-img img{
+        width: 100%;
+    }
+    
+    /* ------sponsor----- */
+    
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        width: 460px;
+        max-width: 100%;
+    }
+    .header__banner {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 115px auto 30px;
+    }
+    .header__banner img {
+        width: 100%;
+    }
+    .header__navbar {
+        height: 6.5rem;
+    }
+    .header__navbar-logo {
+        width: 140px;
+        height: 45px;
+    }
+    .sticky-navbar {
+        height: 5.5rem;
+    }
+    .organizer-item {
+        margin: 0 15px 10px;
+    }
+    /* --------Introduction------ */
+    .intro__text {
+        width: 100%;
+    }
+    .intro-title {
+        margin-bottom: 3.5rem;
+    }
+    .title-column {
+        display: none;
+    }
+    .intro__text .title-row {
+        display: none;
+    }
+    .title-text {
+        font-size: 3rem;
+        margin: 0;
+    }
+    .intro-more-btn {
+        margin-top: 4rem;
+    }
+    /* ---intro-img--- */
+    .intro__img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .intro__img img {
+        transform: none;
+        border-radius: 10px;
+    }
+    .play-btn {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .intro-more-btn {
+        margin: 2rem auto 0;
+    }
+    /* -------late activity-------- */
+    .content-header-title {
+        font-size: 2.7rem;
+    }
+    .act__table-slideshow {
+        width: 90%;
+        margin:0 auto;
+    }
+    .act__table{
+        width: 100%;
+    }
+    .code-vote .content-header-line .title-row {
+        width: 50px;
+    }
+    .quadrangle {
+        width: 15px;
+        height: 7px;
+    }
+    #late__activity {
+        margin-bottom: 30px;
+    }
+    .time-vote{
+        display: none;
+    }
+    .code-vote{
+        width: 25%;
+    }
+    .voter{
+        width: 35%;
+    }
+    .candidate{
+        width: 39%;
+    }
+    .ad-img {
+        margin: 5px 30px;
+        width: 368px;
+        height: 158px;
+    }
+    /* -------- vote list------- */
+    #votelist{
+        background-size: cover;
+        height: auto;
+    }
+    .category-item{
+        font-size: 1.5rem;
+    }
+    .votelist__slideshow{
+        margin-bottom: 50px;
+    }
+    .votelist__candidate-item {
+        width: 49%;
+        height: 355px;
+        margin-bottom: 15px;
+    }
+    .votelist__category{
+        margin-bottom: 50px;
+    }
+    .candidate-item-img {
+        width: 210px;
+        margin: 15px auto;
+        height: 215px;
+        overflow: hidden;
+    }
+    .candidate-item-img img{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        width: 320px;
+        max-width: 100%;
+        padding: 0;
+    }
+    .header__banner {
+        width: 320px;
+    }
+    .header__organizer {
+        padding-top: 50px;
+        margin-top: 30px;
+    }
+    .ad-img {
+        margin: 5px 30px;
+        width: 300px;
+        height: 130px;
+    }
+    /* ----late-activity---- */
+    .code-vote{
+        display: none;
+    }
+    .voter{
+        padding: 0 2px;
+        width: 50%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .candidate{
+        padding: 0 2px;
+        width: 50%;
+        text-align: center;
+    }
+
+    /* ------votelist------ */
+    #votelist{
+        background-position: center;
+    }
+    .content-header-title{
+        font-size: 2.4rem;
+    }
+    .votelist__header{
+        padding-top: 0;
+        margin-top: 85px;
+    }
+    .votelist__category{
+        flex-direction: column;
+    }
+    .category-item{
+        margin-bottom: 5px;
+    }
+    .votelist__candidate-item {
+        width: 80%;
+    }
+    .votelist__candidate-list{
+        justify-content: center;
+    }
+    
+    /* ------sponsor----- */
+    
+
+    /* -----footer---- */
+    .footer-copyright{
+        font-size: 12px;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .footer-container.row{
+        width: 230px;
+    }
+    .footer-logo{
+        margin: 0 auto 40px;
+        width: 170px;
+    }
+    #footer{
+        padding-top: 100px;
+        /* height: fit-content;
+        background-size: initial; */
+    }
+    .footer-logo img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .row{
+        width: 300px;
+    }
+    #header{
+        background-size: cover;
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .header__organizer{
+        justify-content: center;
+        align-items: center;
+    }
+    .organizer-item{
+        width: 120px;
+        margin: 0 5px;
+    }
+    .organizer-item img{
+        width: 100%;
+    }
+    .header__banner{
+        width: 260px;
+    }
+    .content-header-title{
+        font-size: 2rem;
+    }
+    .content-header-line .title-row{
+        width: 70px;
+    }
+    
+    /* ------sponsor----- */
+    .slick-prev, .slick-prev:focus {
+        left: -7px;
+    }
+    .slick-next, .slick-next:focus {
+        right: -7px;
+    }
+}
